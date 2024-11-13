@@ -20,8 +20,7 @@ def main():
                     mouse_x,mouse_y = event.pos
                     row = mouse_y // 32
                     col = mouse_x // 32
-                    print(row,col)
-                    print (x,y)
+                    
                     if row == y and col == x:
                         x = random.randrange(0,640)//32
                         y = random.randrange(0,512)//32
